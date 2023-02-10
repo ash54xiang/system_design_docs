@@ -9,7 +9,7 @@
 
 ## Software Architecture Pattern
 
-### Multi-Tiered Architecture (Layered Architecture)
+### 1. Multi-Tiered Architecture (Layered Architecture)
 * Each layer performs a specific role and has its own responsibility
 * Most common adaptation is 3-tiered architecture system, consisting of *presentation layer*, *business layer* and *data access layer*.
 * The more complex the system is, the more tiers in a tiered architecture system
@@ -22,7 +22,7 @@
   * high coupling between layers
   * low scalability and potentially performance issues as system grows
 
-### Client-Server Architecture
+### 2. Client-Server Architecture
 * Distributed application structure
 * Server provides a service which client requests
 * Promotes centralized computing where lots of resources are dedicated to a small number of computers
@@ -36,7 +36,7 @@
   * prone to network congestion
   * cost becomes an issue as higher power servers are needed as service grows
   
-### Model-View-Controller (MVC) Architecture
+### 3. Model-View-Controller (MVC) Architecture
 * Advantages:
   * low coupling between each part
   * promoting high cohesion
@@ -46,7 +46,7 @@
   * steep learning curve, challenging for inexperienced developers
   * not suitable for large, complex applications (UI-related pattern)
 
-### Service Oriented Architecture
+### 4. Service Oriented Architecture
 * Based on loosely copied services together make up the system
 * Can be implemented in different technologies (web services)
 * A service is defined as a logical representation of a business activity with a specified outcome, self-contained and is a black box for customers
@@ -62,7 +62,7 @@
   * increased overheads in the system
   * not very suitable for GUI based app since these would require large amounts of data transfer between services or apps which are standalone and short lived.
 
-### Microservices Architecture
+### 5. Microservices Architecture
 * Main difference between microservices and service oriented is that in microservice architecutre the services are more fine grained, have a clearly defined scope tied to a business or deck function and they are lightweight.
 * Advantages:
   * improves modularity, making the system easier to build, test and maintain
@@ -71,7 +71,7 @@
   * overhead integration testing becomes more complex due to large number of microservices that need to be tested together
   * service management and deployment become more tedious
 
-### Domain Driven Architecture
+### 6. Domain Driven Architecture
 * In domain driven design sofware experts work with domain experts to build a ubiquitous language which describes the system
 * The ubiquitous language will help form the structure of the object oriented design of the software and guides you in diving the objects into value objects, entities and aggregates roots.
 * Advantages:
@@ -82,7 +82,7 @@
   * initial investment is also costly, need a domain expert to work hand-in-hand with the development team.
   * not suitable for systems that do not have a complex domain model or which are not going to be used for a long time.
 
-### Event Driven Architecture
+### 7. Event Driven Architecture
 * Promotes the production, direction, consumption and reaction to events
 * An event can be defined as a change in the system's state.
 * Producers generate events while event consumers listen for events and consume them
