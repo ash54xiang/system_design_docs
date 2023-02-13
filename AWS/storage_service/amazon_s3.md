@@ -46,3 +46,36 @@
 * Managing object properties
 * Listing keys in the buckets
 * via REST interface as API
+
+## S3 features
+* Prefixes and Delimiters
+  * Path/Folder1/[ObjectName], prefixes and delimiters are the terms for file hierachy in AWS (like folders structure in other platform)
+* Storage classes
+  * differnt class of storage including: 
+    * Amazon S3 Standard ($$$$)
+    * Amazon S3 Infrequent Access(IA) Storage ($$$)
+    * Amazon S3 Reduced Redundancy Storage (RRS) ($$)
+    * Glacier ($)
+* Object lifecycle management
+  * the objects stored in S3 standard can be moved to IA storage / Glacier eventually after some period of time without accessing it, this can further optimize the cost of storage
+* Encryption
+  * Server Side Encryption (SSE) - encryption happens after the files upload to the server (Insecure in transit)
+  * Client Side Encryption -  encryption happens before uploading it to server (Secure in transit)
+* Versioning
+  * records and keeps the previous version of objects when new objects get uploaded into the bucket
+* Multi-Factor Authentication (MFA) Delete
+  * if someone would like to delete a file, he/she has to be holding MFA key
+* Multi-parts Upload
+  * upload big chunk of objects in smaller size in parallel
+* Range GETs
+  * specify a range of bytes from a big size of object to retrieve/access partial chunk of the object stored.
+* Cross-Region Replication
+  * replicate data from 1 region to another region to localize that bucket of data available in that region
+* Logging
+  * anything happened on the buckets gets logged
+* Event Notification
+  * send notification on any events happen on the buckets
+
+## Tips
+* Buckets' name has to be globally unique across the entire Amazon S3 (not just own account)
+* 
