@@ -12,7 +12,7 @@
 ## Caches in different layers
 * Client side
   * Use case: Accelerate retrieval of web content from websites (browser or device)
-  * Tech: HTTP cache headers, browsers
+  * Tech: HTTP cache headers (cache-control in HTTP header), browsers
   * Solution: browser specific
 * DNS
   * Use case: Domain to IP Resolution
