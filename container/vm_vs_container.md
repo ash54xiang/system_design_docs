@@ -13,3 +13,6 @@ VMs are typically bigger in size as they contain whole OS udnerneath | Docker co
 VMs can be easily moved to a new host OS | Containers are destroyed and recreated rather than moving
 Creating VMs take relatively long time | Docker containers can be created in seconds
 Virtualized Apps are harder to find and it takes more time to install and run them | Containerized Apps such as Sonarr, CouchPotatoa etc. can be found and installed easily within minutes
+
+## Reference
+1. https://middleware.io/blog/containerization-vs-virtualization/
