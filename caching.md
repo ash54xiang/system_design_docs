@@ -91,3 +91,11 @@
    *  a single machine is going to handle 1M QPS
    *  Map and linkedList should be used as the data structures. We may get better performance on the double-pointer linked-list on the remove operation
    *  Master-Slave technique
+
+## Caching Algorithm
+1. Round Robin
+2. Stick Round Robin
+3. Weighted Round Robin
+4. IP/URL Hash
+5. Least Connections
+6. Least Time
