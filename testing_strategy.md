@@ -32,6 +32,11 @@
    - Accessibility testing
 4. Compatibility testing
 
+## What tests should be automated?
+- End-to-End Tests (E2E)
+- Unit Tests
+- Integration Tests
+- Performance Tests
 
 # Test Automation Framework
 
