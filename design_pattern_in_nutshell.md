@@ -1,0 +1,56 @@
+# Design Pattern In a NutShell
+
+- Abstract Factory
+  - Family creator
+  - Create groups of related items
+- Builder
+  - Lego master
+  - Build object step by step
+- Prototype
+  - Cloner
+  - Create copies from examples
+- Singleton
+  - The one and only
+  - with just one instance
+- Adapter
+  - Universal plug
+  - Connect different interfaces
+- Bridge
+  - Connector
+  - Link what is to how it works
+- Composite
+  - Tree builder
+  - Create tree-like structure
+- Decorator
+  - Customizer
+  - Add new features to existing object
+- Facade
+  - One-stop shop
+  - Single interface to all functions
+- Flyweight
+  - Space saver
+  - Share small, reusable items
+- Proxy
+  - Middle man
+  - Represent another object
+- Chain of responsibility
+  - Replayer
+  - Relay requests until it is handles
+- Command
+  - Task wrapper
+  - Turn a request into object
+- Iterator
+  - Explorer
+  - Assess element one by one
+- Mediator
+  - Hub
+  - Simplify communication between classes
+- Memento
+  - Capsule
+  - Capture and store object state
+- Observer
+  - Broadcaster
+  - Notify others about the change
+- Visitor
+  - Guests
+  - Explore an object without changing it
