@@ -30,7 +30,7 @@
      * Audit trails
      * Authentication
      * Authorization
-5. Code on demand
+5. Code on demand [**Optional for RESTful**]
    * When a client requests a resource, it also receives the code to act upon it, allows for flexibility, upgradability and extensibility
 6. Uniform Interface
    * Identification of resources
